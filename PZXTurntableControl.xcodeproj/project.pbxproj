@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		993D9C8C20F5A384004E50EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D9C8B20F5A384004E50EA /* AppDelegate.m */; };
+		993D9C8F20F5A384004E50EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D9C8E20F5A384004E50EA /* ViewController.m */; };
+		993D9C9220F5A384004E50EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993D9C9020F5A384004E50EA /* Main.storyboard */; };
+		993D9C9420F5A386004E50EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993D9C9320F5A386004E50EA /* Assets.xcassets */; };
+		993D9C9720F5A386004E50EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993D9C9520F5A386004E50EA /* LaunchScreen.storyboard */; };
+		993D9C9A20F5A386004E50EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D9C9920F5A386004E50EA /* main.m */; };
+		993D9CA420F5A387004E50EA /* PZXTurntableControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D9CA320F5A387004E50EA /* PZXTurntableControlTests.m */; };
+		993D9CAF20F5A387004E50EA /* PZXTurntableControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D9CAE20F5A387004E50EA /* PZXTurntableControlUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		993D9CA020F5A387004E50EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993D9C7F20F5A384004E50EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 993D9C8620F5A384004E50EA;
+			remoteInfo = PZXTurntableControl;
+		};
+		993D9CAB20F5A387004E50EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993D9C7F20F5A384004E50EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 993D9C8620F5A384004E50EA;
+			remoteInfo = PZXTurntableControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		993D9C8720F5A384004E50EA /* PZXTurntableControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PZXTurntableControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		993D9C8A20F5A384004E50EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		993D9C8B20F5A384004E50EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		993D9C8D20F5A384004E50EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		993D9C8E20F5A384004E50EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		993D9C9120F5A384004E50EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		993D9C9320F5A386004E50EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		993D9C9620F5A386004E50EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		993D9C9820F5A386004E50EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		993D9C9920F5A386004E50EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		993D9C9F20F5A387004E50EA /* PZXTurntableControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PZXTurntableControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		993D9CA320F5A387004E50EA /* PZXTurntableControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXTurntableControlTests.m; sourceTree = "<group>"; };
+		993D9CA520F5A387004E50EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		993D9CAA20F5A387004E50EA /* PZXTurntableControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PZXTurntableControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		993D9CAE20F5A387004E50EA /* PZXTurntableControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXTurntableControlUITests.m; sourceTree = "<group>"; };
+		993D9CB020F5A387004E50EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		993D9C8420F5A384004E50EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993D9C9C20F5A387004E50EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993D9CA720F5A387004E50EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		993D9C7E20F5A384004E50EA = {
+			isa = PBXGroup;
+			children = (
+				993D9C8920F5A384004E50EA /* PZXTurntableControl */,
+				993D9CA220F5A387004E50EA /* PZXTurntableControlTests */,
+				993D9CAD20F5A387004E50EA /* PZXTurntableControlUITests */,
+				993D9C8820F5A384004E50EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		993D9C8820F5A384004E50EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				993D9C8720F5A384004E50EA /* PZXTurntableControl.app */,
+				993D9C9F20F5A387004E50EA /* PZXTurntableControlTests.xctest */,
+				993D9CAA20F5A387004E50EA /* PZXTurntableControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		993D9C8920F5A384004E50EA /* PZXTurntableControl */ = {
+			isa = PBXGroup;
+			children = (
+				993D9C8A20F5A384004E50EA /* AppDelegate.h */,
+				993D9C8B20F5A384004E50EA /* AppDelegate.m */,
+				993D9C8D20F5A384004E50EA /* ViewController.h */,
+				993D9C8E20F5A384004E50EA /* ViewController.m */,
+				993D9C9020F5A384004E50EA /* Main.storyboard */,
+				993D9C9320F5A386004E50EA /* Assets.xcassets */,
+				993D9C9520F5A386004E50EA /* LaunchScreen.storyboard */,
+				993D9C9820F5A386004E50EA /* Info.plist */,
+				993D9C9920F5A386004E50EA /* main.m */,
+			);
+			path = PZXTurntableControl;
+			sourceTree = "<group>";
+		};
+		993D9CA220F5A387004E50EA /* PZXTurntableControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				993D9CA320F5A387004E50EA /* PZXTurntableControlTests.m */,
+				993D9CA520F5A387004E50EA /* Info.plist */,
+			);
+			path = PZXTurntableControlTests;
+			sourceTree = "<group>";
+		};
+		993D9CAD20F5A387004E50EA /* PZXTurntableControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				993D9CAE20F5A387004E50EA /* PZXTurntableControlUITests.m */,
+				993D9CB020F5A387004E50EA /* Info.plist */,
+			);
+			path = PZXTurntableControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		993D9C8620F5A384004E50EA /* PZXTurntableControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 993D9CB320F5A387004E50EA /* Build configuration list for PBXNativeTarget "PZXTurntableControl" */;
+			buildPhases = (
+				993D9C8320F5A384004E50EA /* Sources */,
+				993D9C8420F5A384004E50EA /* Frameworks */,
+				993D9C8520F5A384004E50EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PZXTurntableControl;
+			productName = PZXTurntableControl;
+			productReference = 993D9C8720F5A384004E50EA /* PZXTurntableControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		993D9C9E20F5A387004E50EA /* PZXTurntableControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 993D9CB620F5A387004E50EA /* Build configuration list for PBXNativeTarget "PZXTurntableControlTests" */;
+			buildPhases = (
+				993D9C9B20F5A387004E50EA /* Sources */,
+				993D9C9C20F5A387004E50EA /* Frameworks */,
+				993D9C9D20F5A387004E50EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				993D9CA120F5A387004E50EA /* PBXTargetDependency */,
+			);
+			name = PZXTurntableControlTests;
+			productName = PZXTurntableControlTests;
+			productReference = 993D9C9F20F5A387004E50EA /* PZXTurntableControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		993D9CA920F5A387004E50EA /* PZXTurntableControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 993D9CB920F5A387004E50EA /* Build configuration list for PBXNativeTarget "PZXTurntableControlUITests" */;
+			buildPhases = (
+				993D9CA620F5A387004E50EA /* Sources */,
+				993D9CA720F5A387004E50EA /* Frameworks */,
+				993D9CA820F5A387004E50EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				993D9CAC20F5A387004E50EA /* PBXTargetDependency */,
+			);
+			name = PZXTurntableControlUITests;
+			productName = PZXTurntableControlUITests;
+			productReference = 993D9CAA20F5A387004E50EA /* PZXTurntableControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		993D9C7F20F5A384004E50EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = pengzuxin;
+				TargetAttributes = {
+					993D9C8620F5A384004E50EA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					993D9C9E20F5A387004E50EA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 993D9C8620F5A384004E50EA;
+					};
+					993D9CA920F5A387004E50EA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 993D9C8620F5A384004E50EA;
+					};
+				};
+			};
+			buildConfigurationList = 993D9C8220F5A384004E50EA /* Build configuration list for PBXProject "PZXTurntableControl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 993D9C7E20F5A384004E50EA;
+			productRefGroup = 993D9C8820F5A384004E50EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				993D9C8620F5A384004E50EA /* PZXTurntableControl */,
+				993D9C9E20F5A387004E50EA /* PZXTurntableControlTests */,
+				993D9CA920F5A387004E50EA /* PZXTurntableControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		993D9C8520F5A384004E50EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993D9C9720F5A386004E50EA /* LaunchScreen.storyboard in Resources */,
+				993D9C9420F5A386004E50EA /* Assets.xcassets in Resources */,
+				993D9C9220F5A384004E50EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993D9C9D20F5A387004E50EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993D9CA820F5A387004E50EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		993D9C8320F5A384004E50EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993D9C8F20F5A384004E50EA /* ViewController.m in Sources */,
+				993D9C9A20F5A386004E50EA /* main.m in Sources */,
+				993D9C8C20F5A384004E50EA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993D9C9B20F5A387004E50EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993D9CA420F5A387004E50EA /* PZXTurntableControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993D9CA620F5A387004E50EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993D9CAF20F5A387004E50EA /* PZXTurntableControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		993D9CA120F5A387004E50EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 993D9C8620F5A384004E50EA /* PZXTurntableControl */;
+			targetProxy = 993D9CA020F5A387004E50EA /* PBXContainerItemProxy */;
+		};
+		993D9CAC20F5A387004E50EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 993D9C8620F5A384004E50EA /* PZXTurntableControl */;
+			targetProxy = 993D9CAB20F5A387004E50EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		993D9C9020F5A384004E50EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				993D9C9120F5A384004E50EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		993D9C9520F5A386004E50EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				993D9C9620F5A386004E50EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		993D9CB120F5A387004E50EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		993D9CB220F5A387004E50EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		993D9CB420F5A387004E50EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55V9K2V9Z4;
+				INFOPLIST_FILE = PZXTurntableControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pzx.PZXTurntableControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		993D9CB520F5A387004E50EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55V9K2V9Z4;
+				INFOPLIST_FILE = PZXTurntableControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pzx.PZXTurntableControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		993D9CB720F5A387004E50EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55V9K2V9Z4;
+				INFOPLIST_FILE = PZXTurntableControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pzx.PZXTurntableControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PZXTurntableControl.app/PZXTurntableControl";
+			};
+			name = Debug;
+		};
+		993D9CB820F5A387004E50EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55V9K2V9Z4;
+				INFOPLIST_FILE = PZXTurntableControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pzx.PZXTurntableControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PZXTurntableControl.app/PZXTurntableControl";
+			};
+			name = Release;
+		};
+		993D9CBA20F5A387004E50EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55V9K2V9Z4;
+				INFOPLIST_FILE = PZXTurntableControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pzx.PZXTurntableControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PZXTurntableControl;
+			};
+			name = Debug;
+		};
+		993D9CBB20F5A387004E50EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55V9K2V9Z4;
+				INFOPLIST_FILE = PZXTurntableControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pzx.PZXTurntableControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PZXTurntableControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		993D9C8220F5A384004E50EA /* Build configuration list for PBXProject "PZXTurntableControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993D9CB120F5A387004E50EA /* Debug */,
+				993D9CB220F5A387004E50EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		993D9CB320F5A387004E50EA /* Build configuration list for PBXNativeTarget "PZXTurntableControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993D9CB420F5A387004E50EA /* Debug */,
+				993D9CB520F5A387004E50EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		993D9CB620F5A387004E50EA /* Build configuration list for PBXNativeTarget "PZXTurntableControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993D9CB720F5A387004E50EA /* Debug */,
+				993D9CB820F5A387004E50EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		993D9CB920F5A387004E50EA /* Build configuration list for PBXNativeTarget "PZXTurntableControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993D9CBA20F5A387004E50EA /* Debug */,
+				993D9CBB20F5A387004E50EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 993D9C7F20F5A384004E50EA /* Project object */;
+}
