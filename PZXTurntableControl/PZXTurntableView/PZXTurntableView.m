@@ -29,7 +29,7 @@
     // 转盘
     self.rotateWheel = [[UIImageView alloc]initWithFrame:self.bounds];
     [self addSubview:self.rotateWheel];
-    self.rotateWheel.image = [UIImage imageNamed:@"BGTEST01"];
+    self.rotateWheel.image = [UIImage imageNamed:@"BGTEST03"];
     
     // 抽奖按钮
     self.playButton = [[UIButton alloc]initWithFrame:
