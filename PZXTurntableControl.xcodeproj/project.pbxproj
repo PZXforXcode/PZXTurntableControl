@@ -15,6 +15,21 @@
 		993D9C9A20F5A386004E50EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D9C9920F5A386004E50EA /* main.m */; };
 		993D9CA420F5A387004E50EA /* PZXTurntableControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D9CA320F5A387004E50EA /* PZXTurntableControlTests.m */; };
 		993D9CAF20F5A387004E50EA /* PZXTurntableControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D9CAE20F5A387004E50EA /* PZXTurntableControlUITests.m */; };
+		993D9CC420F5A7E2004E50EA /* PZXTurntableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D9CC320F5A7E2004E50EA /* PZXTurntableView.m */; };
+		993D9CCF20F5A875004E50EA /* 2_0000_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 993D9CC620F5A875004E50EA /* 2_0000_up.png */; };
+		993D9CD020F5A875004E50EA /* 2000.png in Resources */ = {isa = PBXBuildFile; fileRef = 993D9CC720F5A875004E50EA /* 2000.png */; };
+		993D9CD120F5A875004E50EA /* qiandao_0004_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 993D9CC820F5A875004E50EA /* qiandao_0004_02.png */; };
+		993D9CD220F5A875004E50EA /* qiandao_0003_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 993D9CC920F5A875004E50EA /* qiandao_0003_01.png */; };
+		993D9CD320F5A875004E50EA /* qiandao_0001_001.png in Resources */ = {isa = PBXBuildFile; fileRef = 993D9CCA20F5A875004E50EA /* qiandao_0001_001.png */; };
+		993D9CD420F5A875004E50EA /* qiandao_0000_000.png in Resources */ = {isa = PBXBuildFile; fileRef = 993D9CCB20F5A875004E50EA /* qiandao_0000_000.png */; };
+		993D9CD520F5A875004E50EA /* qiandao_0002_003.png in Resources */ = {isa = PBXBuildFile; fileRef = 993D9CCC20F5A875004E50EA /* qiandao_0002_003.png */; };
+		993D9CD620F5A875004E50EA /* qiandao_0008_yy.png in Resources */ = {isa = PBXBuildFile; fileRef = 993D9CCD20F5A875004E50EA /* qiandao_0008_yy.png */; };
+		993D9CD720F5A875004E50EA /* turntable.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 993D9CCE20F5A875004E50EA /* turntable.jpeg */; };
+		993D9CDA20F5AAD9004E50EA /* wheel_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993D9CD820F5AAD9004E50EA /* wheel_bg@3x.png */; };
+		993D9CDB20F5AAD9004E50EA /* wheel_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993D9CD920F5AAD9004E50EA /* wheel_bg@2x.png */; };
+		993D9CDE20F5AAEE004E50EA /* wheel_needle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993D9CDC20F5AAEE004E50EA /* wheel_needle@2x.png */; };
+		993D9CDF20F5AAEE004E50EA /* wheel_needle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993D9CDD20F5AAEE004E50EA /* wheel_needle@3x.png */; };
+		993D9CE120F5B39D004E50EA /* BGTEST01.png in Resources */ = {isa = PBXBuildFile; fileRef = 993D9CE020F5B39D004E50EA /* BGTEST01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,22 @@
 		993D9CAA20F5A387004E50EA /* PZXTurntableControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PZXTurntableControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		993D9CAE20F5A387004E50EA /* PZXTurntableControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXTurntableControlUITests.m; sourceTree = "<group>"; };
 		993D9CB020F5A387004E50EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		993D9CC220F5A7E2004E50EA /* PZXTurntableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZXTurntableView.h; sourceTree = "<group>"; };
+		993D9CC320F5A7E2004E50EA /* PZXTurntableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXTurntableView.m; sourceTree = "<group>"; };
+		993D9CC620F5A875004E50EA /* 2_0000_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_0000_up.png; sourceTree = "<group>"; };
+		993D9CC720F5A875004E50EA /* 2000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2000.png; sourceTree = "<group>"; };
+		993D9CC820F5A875004E50EA /* qiandao_0004_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qiandao_0004_02.png; sourceTree = "<group>"; };
+		993D9CC920F5A875004E50EA /* qiandao_0003_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qiandao_0003_01.png; sourceTree = "<group>"; };
+		993D9CCA20F5A875004E50EA /* qiandao_0001_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qiandao_0001_001.png; sourceTree = "<group>"; };
+		993D9CCB20F5A875004E50EA /* qiandao_0000_000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qiandao_0000_000.png; sourceTree = "<group>"; };
+		993D9CCC20F5A875004E50EA /* qiandao_0002_003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qiandao_0002_003.png; sourceTree = "<group>"; };
+		993D9CCD20F5A875004E50EA /* qiandao_0008_yy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qiandao_0008_yy.png; sourceTree = "<group>"; };
+		993D9CCE20F5A875004E50EA /* turntable.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turntable.jpeg; sourceTree = "<group>"; };
+		993D9CD820F5AAD9004E50EA /* wheel_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wheel_bg@3x.png"; sourceTree = "<group>"; };
+		993D9CD920F5AAD9004E50EA /* wheel_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wheel_bg@2x.png"; sourceTree = "<group>"; };
+		993D9CDC20F5AAEE004E50EA /* wheel_needle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wheel_needle@2x.png"; sourceTree = "<group>"; };
+		993D9CDD20F5AAEE004E50EA /* wheel_needle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wheel_needle@3x.png"; sourceTree = "<group>"; };
+		993D9CE020F5B39D004E50EA /* BGTEST01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BGTEST01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +132,7 @@
 		993D9C8920F5A384004E50EA /* PZXTurntableControl */ = {
 			isa = PBXGroup;
 			children = (
+				993D9CBE20F5A79F004E50EA /* PZXTurntableView */,
 				993D9C8A20F5A384004E50EA /* AppDelegate.h */,
 				993D9C8B20F5A384004E50EA /* AppDelegate.m */,
 				993D9C8D20F5A384004E50EA /* ViewController.h */,
@@ -130,6 +162,37 @@
 				993D9CB020F5A387004E50EA /* Info.plist */,
 			);
 			path = PZXTurntableControlUITests;
+			sourceTree = "<group>";
+		};
+		993D9CBE20F5A79F004E50EA /* PZXTurntableView */ = {
+			isa = PBXGroup;
+			children = (
+				993D9CC520F5A875004E50EA /* Pictuer */,
+				993D9CC220F5A7E2004E50EA /* PZXTurntableView.h */,
+				993D9CC320F5A7E2004E50EA /* PZXTurntableView.m */,
+			);
+			path = PZXTurntableView;
+			sourceTree = "<group>";
+		};
+		993D9CC520F5A875004E50EA /* Pictuer */ = {
+			isa = PBXGroup;
+			children = (
+				993D9CE020F5B39D004E50EA /* BGTEST01.png */,
+				993D9CDC20F5AAEE004E50EA /* wheel_needle@2x.png */,
+				993D9CDD20F5AAEE004E50EA /* wheel_needle@3x.png */,
+				993D9CD920F5AAD9004E50EA /* wheel_bg@2x.png */,
+				993D9CD820F5AAD9004E50EA /* wheel_bg@3x.png */,
+				993D9CC620F5A875004E50EA /* 2_0000_up.png */,
+				993D9CC720F5A875004E50EA /* 2000.png */,
+				993D9CC820F5A875004E50EA /* qiandao_0004_02.png */,
+				993D9CC920F5A875004E50EA /* qiandao_0003_01.png */,
+				993D9CCA20F5A875004E50EA /* qiandao_0001_001.png */,
+				993D9CCB20F5A875004E50EA /* qiandao_0000_000.png */,
+				993D9CCC20F5A875004E50EA /* qiandao_0002_003.png */,
+				993D9CCD20F5A875004E50EA /* qiandao_0008_yy.png */,
+				993D9CCE20F5A875004E50EA /* turntable.jpeg */,
+			);
+			path = Pictuer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +299,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				993D9C9720F5A386004E50EA /* LaunchScreen.storyboard in Resources */,
+				993D9CD420F5A875004E50EA /* qiandao_0000_000.png in Resources */,
+				993D9CDF20F5AAEE004E50EA /* wheel_needle@3x.png in Resources */,
+				993D9CD620F5A875004E50EA /* qiandao_0008_yy.png in Resources */,
+				993D9CD220F5A875004E50EA /* qiandao_0003_01.png in Resources */,
+				993D9CCF20F5A875004E50EA /* 2_0000_up.png in Resources */,
+				993D9CD020F5A875004E50EA /* 2000.png in Resources */,
+				993D9CD320F5A875004E50EA /* qiandao_0001_001.png in Resources */,
+				993D9CD120F5A875004E50EA /* qiandao_0004_02.png in Resources */,
+				993D9CD520F5A875004E50EA /* qiandao_0002_003.png in Resources */,
+				993D9CDA20F5AAD9004E50EA /* wheel_bg@3x.png in Resources */,
 				993D9C9420F5A386004E50EA /* Assets.xcassets in Resources */,
+				993D9CDB20F5AAD9004E50EA /* wheel_bg@2x.png in Resources */,
+				993D9CE120F5B39D004E50EA /* BGTEST01.png in Resources */,
+				993D9CDE20F5AAEE004E50EA /* wheel_needle@2x.png in Resources */,
 				993D9C9220F5A384004E50EA /* Main.storyboard in Resources */,
+				993D9CD720F5A875004E50EA /* turntable.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +342,7 @@
 				993D9C8F20F5A384004E50EA /* ViewController.m in Sources */,
 				993D9C9A20F5A386004E50EA /* main.m in Sources */,
 				993D9C8C20F5A384004E50EA /* AppDelegate.m in Sources */,
+				993D9CC420F5A7E2004E50EA /* PZXTurntableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +514,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55V9K2V9Z4;
 				INFOPLIST_FILE = PZXTurntableControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +532,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55V9K2V9Z4;
 				INFOPLIST_FILE = PZXTurntableControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
