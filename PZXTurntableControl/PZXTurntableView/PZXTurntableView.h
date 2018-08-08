@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@protocol TurntableView <NSObject>
+@protocol TurntableViewDelegate <NSObject>
 
 - (void)TurnTableViewDidFinishWithIndex:(NSInteger)index;
 
@@ -22,6 +22,6 @@
 
 @property (nonatomic,strong) NSArray * numberArray;      // 存放奖励
 
-@property (nonatomic,assign) id <TurntableView>delegate;
+@property (nonatomic,assign) id <TurntableViewDelegate>delegate;
 
 @end
